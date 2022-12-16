@@ -42,7 +42,7 @@ YES_NO_OPTION
 
 13.	private void loadFile() {} //  this function must be divided into several functions because it is long. ( promptToSaveFile(),,readFile(File file))
 •	private boolean promptToSaveFile() {} // this function to save file it follow functions Load File.
-•	private String readFile(File file){} // this function to read file it follow functions load file.
+•	private String readFile(File file){} // this function to read file it follow functions load file. == rs,fr //rename this variable because it is not clear 
 •	The all magic number is converted into a const value ( 
                     WARNING_MESSAGE
                   YES_NO_OPTION
