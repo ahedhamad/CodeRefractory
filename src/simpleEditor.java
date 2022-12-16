@@ -22,7 +22,7 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
 @SuppressWarnings("serial")
-public class editor extends JFrame implements ActionListener, DocumentListener {
+public class Editor extends JFrame implements ActionListener, DocumentListener {
 
     public static  void main(String[] args) {
         new editor();
@@ -35,7 +35,7 @@ public class editor extends JFrame implements ActionListener, DocumentListener {
     private File file;
     static final int WINDOW_WIDTH = 500;
     static final int WINDOW_HEIGHT = 500;
-    public editor() {
+    public Editor() {
         //Editor the name of our application
         super("Editor");
         textPanel = new JEditorPane();
