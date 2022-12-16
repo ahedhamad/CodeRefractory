@@ -25,7 +25,7 @@ import javax.swing.event.DocumentListener;
 public class Editor extends JFrame implements ActionListener, DocumentListener {
 
     public static  void main(String[] args) {
-        new editor();
+        new Editor();
     }
 
     public JEditorPane textPanel;
