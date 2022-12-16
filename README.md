@@ -31,11 +31,11 @@ and call this functions in buildEditMenu() function
 12.	public void actionPerformed(ActionEvent e); // in this function uses a switch statement to handle the different actions, Instead of many if Statements. 
 	Use separate method for handling the "Save" action called saveFile();
 •	saveFile(); //Dividing this function into more than one method because it is long .
-         confirmSave() // this function to show Confirm Dialog
-          save() // this function to Save the file if it exists.
-           ex.printStackTrace(); // convert this statement print Exception to logger statement.
-	Use separate method for handling the "New file" action called createNewFile();
-	The all Magic Number is converted into a const value ( 
+         = confirmSave() // this function to show Confirm Dialog
+         = save() // this function to Save the file if it exists.
+         =  ex.printStackTrace(); // convert this statement print Exception to logger statement.
+•	Use separate method for handling the "New file" action called createNewFile();
+•	The all Magic Number is converted into a const value ( 
 WARNING_MESSAGE
 YES_NO_OPTION
  CANCEL_OR_NO_OPTION)
