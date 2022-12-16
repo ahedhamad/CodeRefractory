@@ -52,19 +52,6 @@ YES_NO_OPTION
 
 14.	In the last function, saveAs Text(), it was deleted because it is not used, but if we consider that it can be used in the future, it can be combined with the function of saveAs(), because they have similarities, so it becomes as shown here.
 
-private void saveAs(String dialogTitle, String windowTitle) {
-    JFileChooser dialog = new JFileChooser(System.getProperty("user.home"));
-    dialog.setDialogTitle(dialogTitle);
-    int result = dialog.showSaveDialog(this);
-    if (result != APPROVE_OR_YES_OPTION)        return;
-    file = dialog.getSelectedFile();
-    try (PrintWriter writer = new PrintWriter(file);){
-        writer.write(textPanel.getText());
-        isChanged = false;
-        setTitle(windowTitle + file.getName());
-    } catch (FileNotFoundException e) {
-        e.printStackTrace();
-    }
-}
+![2022-12-16 (2)](https://user-images.githubusercontent.com/99614732/208093980-50a12ce8-8169-4bc3-ae8f-7bbfd5b626ab.png)
 
 •	A parameter named windowTitle is added to send the function a title suitable for the Editor, such as Save As Text Editor or Editor
