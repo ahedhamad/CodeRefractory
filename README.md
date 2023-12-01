@@ -1,4 +1,4 @@
-# Code Refactoring Assignment 6
+# Code Refactoring 
 
 This repository contains refactoring suggestions for improving the code quality of a Java application. Below are the identified issues and proposed improvements.
 
