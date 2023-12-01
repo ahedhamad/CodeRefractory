@@ -59,14 +59,11 @@ This repository contains refactoring suggestions for improving the code quality 
 12. **Consolidation of Functions**
    - Suggested combining `saveAsText()` with `saveAs()` due to similarities for potential future use.
 
-## Usage
-- To implement these refactoring suggestions, review the identified issues and apply the recommended changes in the respective code sections.
+![2022-12-16 (2)](https://user-images.githubusercontent.com/99614732/208093980-50a12ce8-8169-4bc3-ae8f-7bbfd5b626ab.png)
+
+•	A parameter named windowTitle is added to send the function a title suitable for the Editor, such as Save As Text Editor or Editor
 
 ## Additional Notes
 - These refactoring suggestions aim to enhance code readability, maintainability, and adherence to coding best practices.
 - For a detailed implementation, refer to the specific code sections marked in the suggestions.
 
-
-![2022-12-16 (2)](https://user-images.githubusercontent.com/99614732/208093980-50a12ce8-8169-4bc3-ae8f-7bbfd5b626ab.png)
-
-•	A parameter named windowTitle is added to send the function a title suitable for the Editor, such as Save As Text Editor or Editor
